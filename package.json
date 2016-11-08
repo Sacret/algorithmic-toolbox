@@ -1,0 +1,16 @@
+{
+  "name": "algorithmic-toolbox",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "ava *.js",
+    "watch": "ava -w *.js"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "author": "Anastasia Abakumova",
+  "license": "MIT"
+}
