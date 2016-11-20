@@ -11,10 +11,6 @@ function findSegmentDots(segments) {
   return dots;
 }
 
-function findLastMutualPoint(segmentA, segmentB) {
-  return Math.min(segmentA[1], segmentB[1]);
-}
-
 if (require.main !== module) {
   const test = require('ava');
 
